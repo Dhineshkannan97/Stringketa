@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9868a263-f268-4357-acc7-5465a098a436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stringcalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stringcalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stringcalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stringcalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,16 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.stringcalcTest.testEmptyString">
+  <component name="RunManager" selected="JUnit.stringcalcTest">
+    <configuration name="stringcalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stringketa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stringcalcTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stringcalcTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,8 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stringcalcTest.testSingleNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stringketa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stringcalcTest" />
+      <option name="METHOD_NAME" value="testSingleNum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stringcalcTest" />
+        <item itemvalue="JUnit.stringcalcTest.testSingleNum" />
         <item itemvalue="JUnit.stringcalcTest.testEmptyString" />
         <item itemvalue="JUnit.stringcalcTest.addTest" />
       </list>

@@ -11,5 +11,10 @@ public class stringcalcTest {
     void testEmptyString(){
     assertEquals(0,Stringcalc.add(""));
 }
-
+@Test
+    void testSingleNum() {
+    assertEquals(3, Stringcalc.add("3"));
+}
+@Test
+    void test
 }

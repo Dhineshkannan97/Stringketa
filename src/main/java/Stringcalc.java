@@ -3,6 +3,9 @@ public class Stringcalc {
 if (num.isEmpty()){
     return 0;
 }else {
+//       if (){
+//
+//       }
     var splitNum = splitNum(num);
     return pars(splitNum);
 }

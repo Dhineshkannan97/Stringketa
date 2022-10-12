@@ -1,7 +1,11 @@
 public class Stringcalc {
      public static int add(String num){
-         var splitNum = splitNum(num);
-         return pars(splitNum);
+if (num.isEmpty()){
+    return 0;
+}else {
+    var splitNum = splitNum(num);
+    return pars(splitNum);
+}
      }
      private static String[] splitNum(String num){
          var split = num.split(",");

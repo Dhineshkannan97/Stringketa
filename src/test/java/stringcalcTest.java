@@ -7,5 +7,9 @@ public class stringcalcTest {
     void addTest(){
     assertEquals(3, Stringcalc.add("1,2"));
 }
+@Test
+    void testEmptyString(){
+    assertEquals(0,Stringcalc.add(""));
+}
 
 }

@@ -7,11 +7,9 @@ public class Stringcalc {
             return pars(splitNum);
         }
     }
-
     private static String[] splitNum(String num) {
-        return num.split(",");
+        return num.split(",|\\D");
     }
-
     private static int pars(String[] split) {
         int p = 0;
         for (String s : split) {

@@ -30,4 +30,20 @@ public class StringcalcTest {
     void testMixAlpha(){
         assertEquals(4,Stringcalc.add("1,3A"));
     }
+    @Test
+    void testDecimal(){
+        assertEquals(1, Stringcalc.add("1,1.5"));
+    }
+    @Test
+    void testMutiInt(){
+        assertEquals(45,Stringcalc.add("45"));
+    }
+    @Test
+    void testMutiInts(){
+        assertEquals(100,Stringcalc.add("50,50"));
+    }
+    @Test
+    void testAlphaWithInt(){
+        assertEquals(95,Stringcalc.add ("TEST34,61"));
+    }
 }

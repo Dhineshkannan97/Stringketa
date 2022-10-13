@@ -7,7 +7,7 @@
     <list default="true" id="9868a263-f268-4357-acc7-5465a098a436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Stringcalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stringcalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stringcalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringcalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringcalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringcalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.StringcalcTest.testMixAlpha">
+  <component name="RunManager" selected="JUnit.StringcalcTest">
     <configuration name="StringcalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,41 +51,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringcalcTest.testBothAlpha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringcalcTest.testAlphaWithInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
-      <option name="METHOD_NAME" value="testBothAlpha" />
+      <option name="METHOD_NAME" value="testAlphaWithInt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringcalcTest.testMixAlpha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringcalcTest.testDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
-      <option name="METHOD_NAME" value="testMixAlpha" />
+      <option name="METHOD_NAME" value="testDecimal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringcalcTest.testOnlyInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringcalcTest.testMutiInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
-      <option name="METHOD_NAME" value="testOnlyInt" />
+      <option name="METHOD_NAME" value="testMutiInt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringcalcTest.testUnknownNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringcalcTest.testMutiInts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
-      <option name="METHOD_NAME" value="testUnknownNum" />
+      <option name="METHOD_NAME" value="testMutiInts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringcalcTest.testMixAlpha" />
         <item itemvalue="JUnit.StringcalcTest" />
-        <item itemvalue="JUnit.StringcalcTest.testOnlyInt" />
-        <item itemvalue="JUnit.StringcalcTest.testBothAlpha" />
-        <item itemvalue="JUnit.StringcalcTest.testUnknownNum" />
+        <item itemvalue="JUnit.StringcalcTest.testAlphaWithInt" />
+        <item itemvalue="JUnit.StringcalcTest.testMutiInts" />
+        <item itemvalue="JUnit.StringcalcTest.testMutiInt" />
+        <item itemvalue="JUnit.StringcalcTest.testDecimal" />
       </list>
     </recent_temporary>
   </component>

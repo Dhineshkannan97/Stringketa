@@ -13,7 +13,7 @@ public class Stringcalc {
     private static int pars(String[] split) {
         int p = 0;
         for (String s : split) {
-            if (!Character.isDigit(s.charAt(0))) {
+            if (s.isEmpty() || !Character.isDigit(s.charAt(0))){
                 continue;
             }
             p = Integer.parseInt(s) + p;

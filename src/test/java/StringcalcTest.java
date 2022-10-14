@@ -36,14 +36,25 @@ public class StringcalcTest {
     }
     @Test
     void testMutiInt(){
-        assertEquals(45,Stringcalc.add("45"));
+        assertEquals(45, Stringcalc.add("45"));
+    }
+
+    @Test
+    void testMutiInts() {
+        assertEquals(100, Stringcalc.add("50,50"));
+    }
+
+    @Test
+    void testAlphaWithInt() {
+        assertEquals(61, Stringcalc.add("TEST34,61"));
+    }
+
+    @Test
+    void testUnknownAmtOfNum() {
+        assertEquals(2147483652L, Stringcalc.add("5,2147483647"));
     }
     @Test
-    void testMutiInts(){
-        assertEquals(100,Stringcalc.add("50,50"));
-    }
-    @Test
-    void testAlphaWithInt(){
-        assertEquals(95,Stringcalc.add ("TEST34,61"));
+    void testNegativeNum(){
+        assertEquals(3,Stringcalc.add("3,-4"));
     }
 }

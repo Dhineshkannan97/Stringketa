@@ -53,8 +53,23 @@ public class StringcalcTest {
     void testUnknownAmtOfNum() {
         assertEquals(2147483652L, Stringcalc.add("5,2147483647"));
     }
+
     @Test
-    void testNegativeNum(){
-        assertEquals(3,Stringcalc.add("3,-4"));
+    void testNegativeNum() {
+        assertEquals(3, Stringcalc.add("3,-4"));
+    }
+
+    @Test
+    void testIntWithMixAlpha() {
+        assertEquals(5, Stringcalc.add("13A,5"));
+    }
+
+    @Test
+    void testMaxNum() {
+        try {
+            Stringcalc.add("9223372036854775807,5");
+        } catch (NumberFormatException e) {
+            assertEquals(e.getMessage(), "NOT VALID INPUT 9223372036854775807,5");
+        }
     }
 }

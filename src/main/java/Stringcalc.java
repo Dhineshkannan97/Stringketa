@@ -1,3 +1,6 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Stringcalc {
     public static long add(String num) {
         if (num.isEmpty()) {
@@ -15,7 +18,9 @@ public class Stringcalc {
     private static long pars(String[] split) {
         long p = 0;
         for (String s : split) {
-            if (s.isEmpty() || Character.isAlphabetic(s.charAt(0)) || s.contains(".")||s.contains("-")) {
+            Pattern pattern = Pattern.compile(".*[a-zA-Z]+.*");
+            Matcher matcher = pattern.matcher(s);
+            if (s.isEmpty() || s.contains(".") || s.contains("-") || matcher.matches()) {
                 continue;
             }
             p = Long.parseLong(s) + p;

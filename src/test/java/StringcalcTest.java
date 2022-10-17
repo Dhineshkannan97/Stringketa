@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class StringcalcTest {
     @Test
@@ -28,7 +29,7 @@ public class StringcalcTest {
     }
     @Test
     void testMixAlpha(){
-        assertEquals(4,Stringcalc.add("1,3A"));
+        assertEquals(1, Stringcalc.add("1,3A"));
     }
     @Test
     void testDecimal(){
@@ -65,11 +66,36 @@ public class StringcalcTest {
     }
 
     @Test
-    void testMaxNum() {
-        try {
-            Stringcalc.add("9223372036854775807,5");
-        } catch (NumberFormatException e) {
-            assertEquals(e.getMessage(), "NOT VALID INPUT 9223372036854775807,5");
-        }
+    void testSymbol() {
+        assertEquals(54, Stringcalc.add("54,$$"));
+    }
+
+    @Test
+    void testMaxNum1() {
+        assertThrows(ArithmeticException.class, () -> {
+            var exc = Stringcalc.add("9223372036854775807,5");
+        });
+    }
+
+    @Test
+    void testMaxNum2() {
+        assertThrows(NumberFormatException.class, () -> {
+            var exc2 = Stringcalc.add("9223372036854775808,5");
+        });
+    }
+
+    @Test
+    void testMaxNum3() {
+        assertThrows(NumberFormatException.class, () -> {
+            var exc3 = Stringcalc.add("9223372036854775809,5");
+        });
+    }
+
+    @Test
+    void testMaxNum4() {
+        assertThrows(ArithmeticException.class, () -> {
+            var exc4 = Stringcalc.add("9223372036854775806,5");
+        });
     }
 }
+

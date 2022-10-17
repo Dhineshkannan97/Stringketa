@@ -19,11 +19,14 @@ public class Stringcalc {
         long p = 0;
         for (String s : split) {
             Pattern pattern = Pattern.compile(".*[a-zA-Z]+.*");
+            Pattern sym = Pattern.compile("[0-9]+");
             Matcher matcher = pattern.matcher(s);
-            if (s.isEmpty() || s.contains(".") || s.contains("-") || matcher.matches()) {
+            Matcher mat = sym.matcher(s);
+            if (s.isEmpty() || s.contains(".") || s.contains("-") || matcher.matches() || !mat.matches()) {
                 continue;
             }
-            p = Long.parseLong(s) + p;
+            //p = Long.parseLong(s) + p;
+            p = Math.addExact(Long.parseLong(s), p);
         }
         return p;
     }

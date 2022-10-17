@@ -97,5 +97,15 @@ public class StringcalcTest {
             var exc4 = Stringcalc.add("9223372036854775806,5");
         });
     }
+
+    @Test
+    void line() {
+        assertEquals(3, Stringcalc.add("1\n,2"));
+    }
+
+    @Test
+    void line1() {
+        assertEquals(3, Stringcalc.add("1,\n2"));
+    }
 }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9868a263-f268-4357-acc7-5465a098a436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stringcalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stringcalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringcalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringcalcTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.StringcalcTest">
-    <configuration name="Stringcalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stringcalc" />
-      <module name="Stringketa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringcalcTest.line1">
     <configuration name="StringcalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,11 +53,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringcalcTest.testMaxNum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringcalcTest.line" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stringketa" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
-      <option name="METHOD_NAME" value="testMaxNum2" />
+      <option name="METHOD_NAME" value="line" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringcalcTest.line1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stringketa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringcalcTest" />
+      <option name="METHOD_NAME" value="line1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringcalcTest.line1" />
+        <item itemvalue="JUnit.StringcalcTest.line" />
         <item itemvalue="JUnit.StringcalcTest" />
         <item itemvalue="JUnit.StringcalcTest.testMaxNum4" />
         <item itemvalue="JUnit.StringcalcTest.testMaxNum3" />
-        <item itemvalue="JUnit.StringcalcTest.testMaxNum2" />
-        <item itemvalue="Application.Stringcalc" />
       </list>
     </recent_temporary>
   </component>
@@ -122,16 +124,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Stringcalc.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

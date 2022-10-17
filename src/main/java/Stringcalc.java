@@ -12,7 +12,7 @@ public class Stringcalc {
     }
 
     private static String[] splitNum(String num) {
-        return num.split(",");
+        return num.split(",|\n");
     }
 
     private static long pars(String[] split) {

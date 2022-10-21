@@ -36,4 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
+/src/demo/
+.idea/vcs.xml

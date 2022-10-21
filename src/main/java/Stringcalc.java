@@ -39,4 +39,6 @@ public class Stringcalc {
         }
         return p;
     }
-}
+
+    public static void main(String[] args) throws InvalidInputExp { add("9223372036854775809,5");
+}}

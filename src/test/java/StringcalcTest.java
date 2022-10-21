@@ -91,17 +91,14 @@ public class StringcalcTest {
     @Test
     void testMaxNum3() {
         assertThrows(NumberFormatException.class, () -> {
-            var exc3 = Stringcalc.add("9223372036854775809,5");
+            Stringcalc.add("9223372036854775809,5");
         });
     }
 
     @Test
     void testMaxNum4() {
-        assertThrows(ArithmeticException.class, () -> {
-            var exc4 = Stringcalc.add("9223372036854775806,5");
-        });
+        assertThrows(ArithmeticException.class, () -> Stringcalc.add("9223372036854775806,5"));
     }
-
     @Test
     void line() throws InvalidInputExp {
         assertEquals(3, Stringcalc.add("1\n,2"));
